@@ -1,0 +1,16 @@
+{
+    "name": "clock",
+    "version": "1.0.0",
+    "main": "script.js",
+    "scripts": {
+        "lint": "eslint script.js",
+        "test": "echo \"No tests yet\""
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0"
+    },
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
