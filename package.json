@@ -1,16 +1,12 @@
 {
-    "name": "clock",
+    "name": "clock-app",
     "version": "1.0.0",
-    "main": "script.js",
-    "scripts": {
-        "lint": "eslint script.js",
-        "test": "echo \"No tests yet\""
-    },
-    "devDependencies": {
-        "eslint": "^7.32.0"
-    },
-    "description": "",
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
+    "description": "Simple clock app with login and registration",
+    "main": "server.js",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "body-parser": "^1.19.1",
+        "express": "^4.17.1",
+        "mongoose": "^6.2.2"
+    }
 }
